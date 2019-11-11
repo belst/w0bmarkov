@@ -1,0 +1,15 @@
+[package]
+name = "w0bmarkov"
+version = "0.1.0"
+authors = ["belst <git@bel.st>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+url = "2.1.0"
+glob = "0.3.0"
+diesel = { version = "1.4.3", features = ["postgres"] }
+dotenv = "0.15.0"
+irc = "0.13.6"
+failure = "0.1"
